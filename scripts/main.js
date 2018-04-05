@@ -1,5 +1,4 @@
-
-  fetch('http://api.openweathermap.org/data/2.5/weather?q=Waddinxveen&APPID=5cf8719ac570a877c75d8f0ad69a8582&units=metric')
+fetch('https://api.openweathermap.org/data/2.5/weather?q=Waddinxveen&APPID=5cf8719ac570a877c75d8f0ad69a8582&units=metric')
   
   // parse to JSON format
   .then(function(response) {
@@ -16,7 +15,7 @@
   .catch(function (error) {
     //console.error('Request failed', error);
   });
-
+  
 
 function initMap() {//MARKER PLUS DISLAY
 
