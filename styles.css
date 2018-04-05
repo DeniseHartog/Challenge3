@@ -1,0 +1,92 @@
+#map {
+        height: 75%;
+
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+h1{
+	font-family: arial;
+	text-transform: bold;
+	font-size: 28px;
+	text-align: center;
+	color: white;
+	margin: 50px;
+}
+body{
+	background-color: black;
+}
+.weer{
+	color: white;
+	font-family: arial;
+	font-size: 16px;
+	text-align: center;
+	margin:10px;
+}
+
+@media only screen and (max-width: 639px){
+.map{
+	margin: 20px;
+	display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(200px, auto);
+  
+}
+.weer{
+	font-size: 20px;
+}
+}
+
+@media only screen and (min-width: 640px) and (max-width: 758px){
+.map{
+	margin: 40px;
+	display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(200px, auto);
+}
+.weer{
+	font-size: 24px;
+}
+h1{
+	font-size: 32px;
+}
+}
+
+@media only screen and (min-width: 759px) and (max-width: 800px){
+.map{
+	margin: 60px;
+	display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(200px, auto);
+}
+.weer{
+	font-size: 28px;
+}
+h1{
+	font-size: 36px;
+}
+}
+
+@media only screen and (min-width: 801px) and (max-width: 2400px){
+.map{
+	margin: 60px;
+	display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(200px, auto);
+}
+.weer{
+	font-size: 32px;
+
+}
+h1{
+	font-size: 40px;
+}
+
+}
